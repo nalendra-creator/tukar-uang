@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Converter </title>
+    <link rel="stylesheet" href="uang.css">
+       
+    </style>
+</head>
+<body>
+    <div class="section">
+        
+        <img class="pict1" src="dolar.png" alt="uang dolar">
+        <div class="container"><h1>MONEY CONVERTER</h1>
+        <div class="mata-uang">
+            
+            <div class="blok">
+                <select id="fromSelect">
+                    <option value="USD">USD</option>
+                    <option value="IDR">IDR</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <span class="arrow">→</span>
+            <div class="blok">
+                <select id="toSelect">
+                    <option value="USD">USD</option>
+                    <option value="IDR">IDR</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+        </div>
+        <input  type="number"  id="jumlah" placeholder="masungkan angka">
+
+        <div class="blok">
+        <button onclick="mesin()">Convert</button>
+        <h2 class="hasil">Hasil</h2>
+        </div>
+</div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="uang.js"></script>
+</body>
+</html>
